@@ -1,0 +1,25 @@
+.logo {
+	width: 85%;
+}
+.menu-connexion {
+	width: 15%;
+}
+.article {
+    width: 33.333%;
+	height: 650px;
+}
+.col-home {
+	width: 70%;
+}
+.sidebar {
+    width: 30%;
+}
+.image-page {
+	height: 50vh;
+}
+.img-litle-article {
+	width: 20%;
+}
+.content-litle-article {
+	width: 80%;
+}

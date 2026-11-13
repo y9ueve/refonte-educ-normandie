@@ -1,0 +1,18 @@
+/*
+Theme Name: L'Educ de Normandie
+Theme URI: https://www.l-educdenormandie.fr/
+Description: Thème créé par Thibaut Lacheray.
+Version: 1.0
+Author: Thibaut Lacheray
+
+Creation Theme by Thibaut Lacheray || https://17pixel.com
+*/
+/* ************************************ GENERAL ************ */
+@import "general.css";
+@import "320.css" only screen and (min-width : 320px) and (max-width : 479px);
+@import "480.css" only screen and (min-width : 480px) and (max-width : 639px);
+@import "640.css" only screen and (min-width : 640px) and (max-width : 767px);
+@import "768.css" only screen and (min-width : 768px) and (max-width : 959px);
+@import "960.css" only screen and (min-width : 960px) and (max-width : 1023px);
+@import "1024.css" only screen and (min-width : 1024px) and (max-width : 1279px);
+@import "1280.css" only screen and (min-width : 1280px) and (max-width : 1440px);

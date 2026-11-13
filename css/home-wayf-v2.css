@@ -1,0 +1,43 @@
+/* Compléments minimaux : tout le reste vient des CSS de la page de connexion */
+:root{--edifice-body-font-family:Comfortaa,cursive}
+html{font-size:62.5%}
+body{font-family:Comfortaa,cursive}
+.wayf-logo-chip{display:flex;border-radius:var(--primitive-border-radius-2xl);background:linear-gradient(111deg,#b9e3f8 0%,#2a9cc8 100%);padding:4px 16px}
+.wayf-logo{width:160px;height:64px}
+.wayf-provider-btn{font-family:inherit;text-align:left}
+.wayf-provider-btn:hover{color:inherit}
+.wayf-view-slide[hidden]{display:none}
+.wayf-view-slide.is-entering{animation:enter .35s ease-out}
+.wayf-welcome__scroll .post{font-size:1.5rem;line-height:1.7;color:var(--primitive-grey-900)}
+.wayf-welcome__scroll .post a{color:var(--primitive-blue-900);font-weight:700}
+.wayf-welcome__scroll .post table td{border:0;vertical-align:middle}
+.wayf-welcome__scroll .post table img{border-radius:var(--primitive-border-radius-xl,1.6rem)}
+.wayf-partners__logo{max-height:56px;border-radius:8px}
+.wayf-edifice-badge{justify-content:center;text-align:center}
+.wayf-footer-links{flex-wrap:wrap;justify-content:center}
+.wayf-provider-btn__icon{font-size:2rem;width:auto;height:auto;line-height:1}
+.wayf-provider-btn__arrow .fa{font-size:1.4rem}
+.wayf-welcome__scroll .post table{table-layout:auto}
+.wayf-welcome__scroll .post table td:first-child{width:96px}
+.wayf-welcome__scroll .post table img{width:80px!important;height:80px!important;object-fit:contain}
+.wayf-welcome__scroll .post table td{padding:8px 12px}
+/* Logo du haut (sans pastille) */
+.wayf-logo-link{display:flex}
+.wayf-logo{width:220px;height:auto;max-height:90px;object-fit:contain}
+/* Footer pleine largeur en bas de page */
+.wayf-page-footer{background:var(--primitive-white);border-top:1px solid var(--primitive-grey-300)}
+/* Annonces (Informations utiles) sous les boutons */
+.home-news{width:100%;display:flex;flex-direction:column;gap:var(--primitive-spacer-24);padding-block:var(--primitive-spacer-16) var(--primitive-spacer-32);border-top:1px solid var(--primitive-grey-300)}
+.home-news__card{display:flex;flex-direction:column;gap:var(--primitive-spacer-8);text-decoration:none;color:inherit}
+.home-news__img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:var(--primitive-border-radius-xl,1.6rem)}
+.home-news__title{margin:0;font-size:1.8rem;font-weight:700;color:var(--primitive-blue-900)}
+.home-news__text{margin:0;font-size:1.4rem;line-height:1.6;color:var(--primitive-grey-800)}
+.home-news__card:hover .home-news__title{color:var(--edifice-secondary,#2a9cc8)}
+/* Recherche : mêmes classes que les boutons .wayf-provider-btn, l'input remplace le libellé */
+.wayf-provider-btn--search{--btn-color:#2a9cc8;cursor:text;margin:0}
+.wayf-provider-btn--search:focus-within{outline:3px solid var(--btn-color);outline-offset:2px;box-shadow:0 4px 10px #00000026}
+.wayf-provider-btn--search button{border:0;margin:0;font:inherit;cursor:pointer}
+.wayf-provider-btn--search .wayf-provider-btn__icon-wrap{border-radius:10px 0 0 10px}
+.wayf-provider-btn--search .wayf-provider-btn__arrow{background:transparent;padding-block:0}
+.wayf-provider-btn__input{border:0;outline:0;background:transparent;min-width:0;width:100%;font-family:Comfortaa,cursive;font-size:var(--primitive-font-size-default);font-weight:var(--primitive-font-weight-bold);color:var(--primitive-grey-900);text-align:center;box-shadow:none}
+.wayf-provider-btn__input::placeholder{color:var(--primitive-grey-700);font-weight:400}

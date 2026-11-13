@@ -1,0 +1,67 @@
+.col-petit {
+	width: 50%;
+}
+.col-large {
+	width: 50%;
+}
+.logo {
+	width: 70%;
+}
+.menu-connexion {
+	width: 30%;
+}
+.article {
+    width: 100%;
+}
+.content-actu {
+	padding: 0;
+}
+.col-home {
+	width: 100%;
+}
+.sidebar {
+    width: 100%;
+}
+.partenaires {
+	padding: 20px 8% 50px 8%;
+}
+.image-page, .image-page-mobile {
+	display: none;
+}
+.image-page-tablette {
+	display: block;
+	height: 40vh;
+}
+.title-page {
+	top: 65%;
+	width:50%;
+}
+.img-litle-article {
+	width: 100%;
+}
+.content-litle-article {
+	width: 100%;
+	padding: 20px 0 0 0;
+}
+.logo-footer {
+	margin:10px auto;
+	float:none;
+}
+.description-footer {
+	float:none;
+	margin: 0 auto;
+	display: table;
+}
+.description-footer p {
+	height:auto;
+}
+.nav-footer {
+	float: none;
+	margin: 20px auto 0 auto;
+	display: table;
+}
+.menu-footer li {
+	display:table;
+	text-align: center;
+	margin: 0 auto 20px auto;
+}

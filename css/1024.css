@@ -1,0 +1,28 @@
+.logo {
+	width: 80%;
+}
+.menu-connexion {
+	width: 20%;
+}
+.article {
+    width: 50%;
+	height: 620px;
+}
+.col-home {
+	width: 70%;
+}
+.sidebar {
+    width: 30%;
+}
+.partenaires {
+	padding: 20px 6% 50px 6%;
+}
+.image-page {
+	height: 50vh;
+}
+.img-litle-article {
+	width: 25%;
+}
+.content-litle-article {
+	width: 75%;
+}
